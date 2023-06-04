@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #dbdbdb8b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    font-display: swap;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display:none
+}
+body,html {
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar {
+  display:none
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Poppins:wght@100;300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  ::-webkit-scrollbar{
+    display:none
+  }
+}
+
+/* @font-face {
+  font-family: "ADELIA";
+  src: url("../public/fonts/ADELIA.otf");
+} */
+
+/* @layer base {
+  ul, ol {
+    list-style: revert;
+  }
+} */
